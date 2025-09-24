@@ -507,31 +507,31 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{DAB24F71-42D7-4A9E-8A05-C618F336706B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TCSPD.exe</Property>
 			</Item>
-			<Item Name="TCSPD 1.0.21" Type="EXE">
+			<Item Name="TCSPD build 1.0.22" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{AE3EDDA1-F992-43C2-BADB-D484BFBE7699}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A870F7D5-4D2D-456C-8E84-5F8B8D309BF0}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{409D709D-1B18-49FE-BA8F-F3A53842298E}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Removida dependência NI VISION. Build com LabVIEW 2018. Comunicação com a estação meteorológica passou a ter parâmetros configuráveis, sinalização do recebimento dos dados e recuperação automática da conexão. Verificação do formato das coordenadas de apontamento RA e DEC digitadas pelo usuário. Corrigido bug de travamento de DEC no final de um apontamento.</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TCSPD 1.0.21</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">New: Non-sideral tracking. Corrigido bug do travamento durante a guiagem.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TCSPD build 1.0.22</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD 1.0.21</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.22</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B5FA9E73-0E69-4F5F-ADB8-2862C2260A44}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TCSPD.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD 1.0.21/TCSPD.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.22/TCSPD.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD 1.0.21/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.22/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TCSPD.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F867C432-C8FF-4D2A-B7FE-F20162B9B640}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{427D0B52-12A9-4EE7-8130-BE245E5A5CEF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shared_160.lvlib/TCSPD.VI</Property>
@@ -564,10 +564,10 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/DLLs0MQ/msvcr120.dll</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">TCSPD 1.0.21.3 - Alterada a configuração e implementadas melhorias na comunicação com a estação meteorológica.</Property>
-				<Property Name="TgtF_internalName" Type="Str">TCSPD 1.0.21.3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TCSPD build 1.0.22.3 - Alterada a configuração e implementadas melhorias na comunicação com a estação meteorológica.</Property>
+				<Property Name="TgtF_internalName" Type="Str">TCSPD build 1.0.22.3</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
-				<Property Name="TgtF_productName" Type="Str">TCSPD 1.0.21.3</Property>
+				<Property Name="TgtF_productName" Type="Str">TCSPD build 1.0.22.3</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D1EBB7CB-0D93-46CD-9C8F-C2FF1C65B7B2}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TCSPD.exe</Property>
 			</Item>
