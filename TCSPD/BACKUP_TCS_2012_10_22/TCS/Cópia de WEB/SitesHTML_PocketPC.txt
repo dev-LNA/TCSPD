@@ -1,0 +1,13 @@
+http://msdn.microsoft.com/en-us/library/ms838316.aspx
+
+http://reference.sitepoint.com/css/vertical-align
+
+http://www.w3.org/TR/CSS2/visudet.html#min-max-heights
+
+http://www.w3.org/TR/CSS2/propidx.html
+
+http://www.tizag.com/htmlT/htmlattributes.php
+
+http://articles.techrepublic.com.com/5100-10878_11-5056990.html
+
+http://msdn.microsoft.com/en-us/library/ms838316.aspx

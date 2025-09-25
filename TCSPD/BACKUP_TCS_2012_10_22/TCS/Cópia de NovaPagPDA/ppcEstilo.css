@@ -1,0 +1,12 @@
+#body {
+
+      background-image: url("fundo.gif");
+
+}
+
+#menu1 {
+	position:relative;
+	left: 0px;
+	top: 0px;
+      background-color: #000000;
+}

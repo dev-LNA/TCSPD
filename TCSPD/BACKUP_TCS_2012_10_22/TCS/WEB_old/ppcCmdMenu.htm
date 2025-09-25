@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>MENU DE TESTE</title>
+<script language="javascript">
+function selecao(equip)	{
+	document.subform.eqp.value = equip;
+	document.subform.submit();
+}
+</script>
+</head>
+
+<body leftmargin="1" topmargin="1" rightmargin="1" bottommargin="1" marginwidth="1" marginheight="1">
+<form name="subform" method="post" action="ppc.asp" target="processo">
+<p><a href="ppcCmdFoco.htm" target="Comando" onClick="selecao('FOCO');">TESTE PARA FOCO</a><br>
+<a href="ppcCmdRotator.htm" target="Comando" onClick="selecao('ROTATOR');">TESTE PARA ROTATOR</a><br>
+<a href="ppcCmdTubo.htm" target="Comando" onClick="selecao('TUBO');">TESTE PARA TUBO</a><br>
+<a href="ppcCmdEspelhos.htm" target="Comando" onClick="selecao('ESPELHOS');">TESTE PARA ESPELHOS</a><br>
+<a href="ppcCmdApontamento.htm" target="Comando" onClick="selecao('APONTAMENTO');">TESTE PARA APONTAMENTO</a><br>
+<a href="ppcCmdManete.htm" target="Comando" onClick="selecao('MANETE');">TESTE PARA MANETE</a><br>
+<a href="ppcCmdParking.htm" target="Comando" onClick="selecao('PARKING');">TESTE PARA PARKING</a><br>
+<a href="ppcCmdCupula.htm" target="Comando" onClick="selecao('CUPULA');">TESTE PARA CÚPULA</a><br>
+<a href="ppcCmdEquipCupula.htm" target="Comando" onClick="selecao('EQUIPCUPULA');">TESTE PARA EQUIPAMENTOS DA CÚPULA</a><br>
+<a href="ppcCmdLampadas.htm" target="Comando" onClick="selecao('LAMPADAS');">TESTE PARA LÂMPADAS</a><br>
+<input type="hidden" name="eqp" value="">
+<input type="hidden" name="acao" value="NOVO">
+</p>
+</form>
+</body>
+</html>

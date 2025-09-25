@@ -1,0 +1,2508 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+body {
+	margin: 0px 0px 0px 9px; padding: 0px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);
+}
+p {
+	font-size: 12px;
+}
+td {
+	font-size: 12px;
+}
+select {
+	font-size: 12px;
+}
+input {
+	font-size: 12px;
+}
+textarea {
+	font-size: 12px;
+}
+ul {
+	font-size: 12px;
+}
+ol {
+	font-size: 12px;
+}
+li {
+	font-size: 12px;
+}
+th {
+	text-align: left;
+}
+sup {
+	font-size: 10px;
+}
+pre {
+	color: rgb(0, 0, 0); font-family: Courier, fixed-width; font-weight: normal;
+}
+em {
+	font-style: italic;
+}
+h1 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 14px;
+}
+h1 {
+	font-weight: bold;
+}
+h2 {
+	font-weight: bold;
+}
+h3 {
+	font-weight: bold;
+}
+h4 {
+	font-weight: bold;
+}
+h5 {
+	font-weight: bold;
+}
+h6 {
+	font-weight: bold;
+}
+h2.alt {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(6, 95, 163); border-bottom-width: 5px; border-bottom-style: solid;
+}
+h2.hw {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(6, 95, 163); border-bottom-width: 5px; border-bottom-style: solid;
+}
+.hw h2 {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(6, 95, 163); border-bottom-width: 5px; border-bottom-style: solid;
+}
+.alt h2 {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(6, 95, 163); border-bottom-width: 5px; border-bottom-style: solid;
+}
+h2.sw {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(255, 187, 0); border-bottom-width: 5px; border-bottom-style: solid;
+}
+.sw h2 {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(255, 187, 0); border-bottom-width: 5px; border-bottom-style: solid;
+}
+h2.generic {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 5px; border-bottom-style: solid;
+}
+h2.assistance {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 5px; border-bottom-style: solid;
+}
+h2.distinct {
+	margin: 2px 0px 3px; padding: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 5px; border-bottom-style: solid;
+}
+.alt h3 {
+	padding: 4px; font-size: 12px; margin-top: 10px; border-bottom-color: rgb(6, 95, 163); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.hw h3 {
+	padding: 4px; font-size: 12px; margin-top: 10px; border-bottom-color: rgb(6, 95, 163); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.sw h3 {
+	padding: 4px; font-size: 12px; margin-top: 10px; border-bottom-color: rgb(255, 187, 0); border-bottom-width: 1px; border-bottom-style: solid;
+}
+caption {
+	padding: 3px; text-align: left; font-weight: bold;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+#pagearea ul {
+	margin: 10px 0px; padding: 0px; list-style-type: none;
+}
+#pagearea ul li {
+	background: url("/images/global/us/bullet_nopad.gif") no-repeat 3px -1px; line-height: 1.2; padding-left: 14px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin-bottom: 6px;
+}
+#pagearea ul li ul {
+	margin: 5px 0px;
+}
+#pagearea ul li ul li {
+	background: url("/images/global/us/bullet_sub.gif") no-repeat 3px -3px;
+}
+#pagearea ul li ul li ul li {
+	background: url("/images/global/us/bullet_subsub.gif") no-repeat 3px -3px;
+}
+#pagearea ul li ol li {
+	background-image: none;
+}
+#pagearea ul li ul li ol li {
+	background-image: none;
+}
+#pagearea ul.nobullet {
+	margin: 0px; padding: 0px; line-height: 1.5; list-style-type: none;
+}
+#pagearea ul.nobullet li {
+	background: url("/images/global/us/invis.gif"); padding: 0px 3px;
+}
+#pagearea ul.nobullet li li {
+	padding-left: 15px;
+}
+a:link {
+	color: rgb(6, 95, 163); text-decoration: none;
+}
+a:visited {
+	color: rgb(136, 68, 136); text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.niblue {
+	background-color: rgb(6, 95, 163);
+}
+.niblue50 {
+	background-color: rgb(130, 175, 209);
+}
+.niblue35 {
+	background-color: rgb(168, 199, 223);
+}
+.niblue25 {
+	background-color: rgb(193, 215, 232);
+}
+.niblue12 {
+	background-color: rgb(230, 239, 246);
+}
+.niblue10 {
+	background-color: rgb(230, 239, 246);
+}
+.black {
+	background-color: rgb(0, 0, 0);
+}
+.black60 {
+	background-color: rgb(102, 102, 102);
+}
+.black20 {
+	background-color: rgb(204, 204, 204);
+}
+.black12 {
+	background-color: rgb(224, 224, 224);
+}
+.black10 {
+	background-color: rgb(229, 229, 229);
+}
+.black5 {
+	background-color: rgb(242, 242, 242);
+}
+.beer {
+	background-color: rgb(255, 187, 0);
+}
+.beer60 {
+	background-color: rgb(255, 214, 102);
+}
+.beer55 {
+	background-color: rgb(255, 218, 115);
+}
+.beer50 {
+	background-color: rgb(255, 221, 127);
+}
+.beer25 {
+	background-color: rgb(255, 238, 191);
+}
+.beer12 {
+	background-color: rgb(255, 247, 224);
+}
+#wrapper {
+	width: 752px; position: relative;
+}
+#logo {
+	float: left;
+}
+#search {
+	margin: 17px 0px 0px; width: 590px; text-align: right; font-family: Arial, "Arial Unicode", sans-serif; font-size: 11px; float: left;
+}
+#search a {
+	font-family: Arial, "Arial Unicode", sans-serif; font-size: 11px;
+}
+.mainsearchinputbox {
+	color: rgb(0, 0, 0); font-size: 11px;
+}
+.mainsearchinputboxon {
+	color: rgb(0, 0, 0); font-size: 11px;
+}
+#sitenavigation {
+	width: 752px; height: 20px; clear: left; background-color: rgb(255, 255, 255);
+}
+#linearnavigation {
+	width: 752px; height: 20px; color: rgb(255, 255, 255); clear: left; font-size: 12px; background-color: rgb(6, 95, 163);
+}
+#linearcontentcontainer {
+	padding: 5px 0px 0px; width: 752px;
+}
+a.linearbarlink {
+	padding: 3px 5px; color: rgb(255, 255, 255); font-size: 11px; float: right;
+}
+a.linearbarlink:visited {
+	color: rgb(255, 255, 255);
+}
+.lineartext {
+	padding: 3px 5px;
+}
+#bodycontainer {
+	clear: left;
+}
+#primarycontentcontainer {
+	padding: 5px 0px 0px; width: 552px; float: left;
+}
+#breadcrumbcontainer {
+	padding: 2px 0px 5px;
+}
+#breadcrumblabel {
+	font-size: 10px;
+}
+#breadcrumb {
+	font-size: 10px;
+}
+#breadcrumb a {
+	font-size: 10px;
+}
+#breadcrumblabel {
+	width: 75px; white-space: nowrap;
+}
+#locale {
+	padding: 0px 3px 0px 8px; text-align: right; font-size: 11px; font-weight: bold; white-space: nowrap;
+}
+#javascriptlocale {
+	color: rgb(6, 95, 163); font-weight: bold; display: inline; cursor: pointer;
+}
+#footer {
+	background: url("/images/global/us/dot_line.gif") repeat-x rgb(255, 255, 255); margin: 25px 0px; width: 752px; padding-top: 10px; clear: both; font-size: 10px;
+}
+.copyright {
+	color: rgb(149, 149, 149); letter-spacing: 0px;
+}
+.clearfloat {
+	clear: both;
+}
+#junktable {
+	width: 100%;
+}
+#tertiarynavigation {
+	text-align: right;
+}
+.tertiarynavigation {
+	margin: 0px 0px 10px 20px; border: 1px solid rgb(130, 175, 209); width: 150px;
+}
+.tertiarynavigation ul {
+	margin: 0px; padding: 0px; text-align: left; list-style-type: none;
+}
+.tertiarynavigation ul ul {
+	margin-top: 5px; margin-bottom: 10px;
+}
+.tertiarynavigation li span {
+	padding: 5px 14px 4px 10px; width: 126px; color: rgb(130, 175, 209); font-size: 12px; font-weight: bold; display: block; background-color: rgb(230, 239, 246);
+}
+.tertiarynavigation li li a {
+	background: url("/images/global/us/bullet.gif") no-repeat 11px -1px rgb(255, 255, 255); padding: 3px 3px 3px 21px; width: 120px; font-size: 11px; display: block;
+}
+.tertiarynavigation li li span {
+	padding: 3px 3px 3px 10px; border: 0px currentColor; color: rgb(0, 0, 0); display: block; background-color: rgb(255, 255, 255);
+}
+.tertiarynavigation a:hover {
+	color: rgb(0, 0, 0); text-decoration: none; background-color: rgb(204, 204, 204);
+}
+.column_container::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clear_insides::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.tabs::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.col2::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.col3::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.col4::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.column_container {
+	display: inline-block;
+}
+.column_container {
+	display: block;
+}
+.column_container {
+	_zoom: 1;
+}
+.clear_insides {
+	_zoom: 1;
+}
+.tabs {
+	_zoom: 1;
+}
+.col2 {
+	_zoom: 1;
+}
+.col3 {
+	_zoom: 1;
+}
+.col4 {
+	_zoom: 1;
+}
+.column {
+	float: left;
+}
+.first.column {
+	clear: both;
+}
+.last.column {
+	float: right;
+}
+.grid1 {
+	width: 73px;
+}
+.grid2 {
+	width: 154px;
+}
+.grid3 {
+	width: 235px;
+}
+.grid4 {
+	width: 316px;
+}
+.grid5 {
+	width: 397px;
+}
+.grid6 {
+	width: 478px;
+}
+.grid7 {
+	width: 559px;
+}
+.grid8 {
+	width: 640px;
+}
+.grid9 {
+	width: 721px;
+}
+.grid10 {
+	width: 802px;
+}
+.grid11 {
+	width: 883px;
+}
+.grid12 {
+	width: 964px;
+}
+.grid12 .container {
+	padding: 0px 8px;
+}
+.colpadding {
+	padding: 20px;
+}
+.colpaddingright {
+	padding-right: 20px;
+}
+.colpaddinghorizontal {
+	padding: 0px 20px;
+}
+.widerthannormal #footer {
+	width: 100%;
+}
+.titlebar {
+	padding: 3px 3px 3px 5px; color: rgb(0, 0, 0); font-weight: bold; margin-top: 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.header6 {
+	padding: 3px 3px 3px 5px; color: rgb(0, 0, 0); font-weight: bold; margin-top: 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.topalign {
+	vertical-align: top;
+}
+.middlealign {
+	vertical-align: middle;
+}
+.bottomalign {
+	vertical-align: bottom;
+}
+.barstyle {
+	background: rgb(242, 242, 242); border-width: 1px 0px; border-style: solid; border-color: rgb(224, 224, 224); padding: 3px; color: rgb(121, 121, 121);
+}
+#callme {
+	padding: 10px 11px;
+}
+#globe {
+	background: url("/images/labview/us/globe.gif") no-repeat 11px 0px; padding: 2px 0px 0px 47px; height: 40px; color: rgb(6, 95, 163); font-size: 11px; margin-bottom: 10px;
+}
+#globe .arrow {
+	color: rgb(6, 95, 163); font-size: 11px; font-weight: bold;
+}
+#globe a {
+	font-size: 10px; font-weight: bold;
+}
+.fineprint {
+	font-size: 11px;
+}
+.wayfineprint {
+	letter-spacing: 1px; font-size: 9px;
+}
+.tableshade {
+	background-color: rgb(246, 246, 246);
+}
+.clearbg {
+	background-color: rgb(255, 255, 255);
+}
+.required {
+	color: rgb(255, 0, 0); font-weight: bold;
+}
+#allencompassingcontactme {
+	width: 752px;
+}
+#warningarea {
+	margin: 0px 0px 10px; padding: 5px; border: 4px solid rgb(229, 229, 229);
+}
+#warningarea h3 {
+	color: rgb(187, 0, 0); font-size: 16px;
+}
+#warningarea p {
+	margin: 2px 0px; line-height: 1.4; font-size: 11px;
+}
+#eventsearch select {
+	width: 180px; font-size: 11px;
+}
+.youwillconform table td {
+	border: 1px solid rgb(204, 204, 204); font-size: 11px; border-collapse: collapse;
+}
+.youwillconform table {
+	border: 1px solid rgb(204, 204, 204); width: 550px; border-spacing: 0;
+}
+.top {
+	padding: 10px 0px; text-align: right; text-transform: uppercase; font-size: 11px;
+}
+.imgright {
+	padding: 0px 0px 10px 10px; float: right;
+}
+.imgleft {
+	padding: 0px 10px 10px 0px; float: left;
+}
+.utilityBarRight {
+	margin: 0px; padding: 0px; left: 761px; top: 83px; width: 200px; height: 1024px; overflow: hidden; position: absolute;
+}
+.utilityBarRightExtended {
+	margin: 0px; padding: 0px; left: 761px; top: 83px; width: 200px; height: 1024px; overflow: hidden; position: absolute;
+}
+.expandcontact h3 {
+	margin: 5px 0px; padding: 5px 0px;
+}
+.closedsection {
+	display: none;
+}
+.opensection {
+	display: block;
+}
+.closedlink {
+	color: rgb(6, 95, 163); font-size: 10px; font-weight: normal; float: right; cursor: pointer;
+}
+.openlink {
+	color: rgb(6, 95, 163); font-size: 10px; font-weight: normal; float: right; cursor: pointer;
+}
+a.closedlink:hover {
+	text-decoration: none;
+}
+a.openlink:hover {
+	text-decoration: none;
+}
+.message {
+	margin: 4px 0px; padding: 5px 30px;
+}
+.warning {
+	margin: 4px 0px; padding: 5px 30px;
+}
+.error {
+	margin: 4px 0px; padding: 5px 30px;
+}
+.globalmessage {
+	margin: 4px 0px; padding: 5px 30px;
+}
+.message {
+	background: url("/images/global/neutral/icon_message.gif") no-repeat 10px 5px rgb(255, 255, 255); border: 2px solid rgb(0, 153, 0);
+}
+.globalmessage {
+	background: url("/images/global/neutral/icon_message.gif") no-repeat 10px 5px rgb(255, 255, 255); border: 2px solid rgb(0, 153, 0);
+}
+.warning {
+	background: url("/images/global/neutral/icon_warning.gif") no-repeat 10px 2px rgb(255, 255, 255); border: 2px solid rgb(255, 187, 0);
+}
+.error {
+	background: url("/images/global/neutral/icon_error.gif") no-repeat 10px 5px rgb(255, 255, 255); border: 2px solid rgb(255, 0, 0);
+}
+.message em {
+	color: rgb(0, 153, 0); font-style: normal; font-weight: bold;
+}
+.globalmessage em {
+	color: rgb(0, 153, 0); font-style: normal; font-weight: bold;
+}
+.warning em {
+	color: rgb(255, 187, 0); font-style: normal; font-weight: bold;
+}
+.error em {
+	color: rgb(255, 0, 0); font-style: normal; font-weight: bold;
+}
+.error-inline em {
+	color: rgb(255, 0, 0); font-style: normal; font-weight: bold;
+}
+.message-inline {
+	margin: 0px; padding: 5px 25px;
+}
+.warning-inline {
+	margin: 0px; padding: 5px 25px;
+}
+.error-inline {
+	margin: 0px; padding: 5px 25px;
+}
+.message-inline {
+	background: url("/images/global/neutral/icon_message.gif") no-repeat 5px;
+}
+.warning-inline {
+	background: url("/images/global/neutral/icon_warning.gif") no-repeat 5px;
+}
+.error-inline {
+	background: url("/images/global/neutral/icon_error.gif") no-repeat 5px;
+}
+html .message p {
+	margin: 0px; padding: 2px; line-height: normal; font-size: 12px;
+}
+html .warning p {
+	margin: 0px; padding: 2px; line-height: normal; font-size: 12px;
+}
+html .error p {
+	margin: 0px; padding: 2px; line-height: normal; font-size: 12px;
+}
+.globalmessage p {
+	margin: 0px; padding: 0px;
+}
+.errortext {
+	background: url("/images/global/neutral/icon_error.gif") no-repeat 5px rgb(255, 255, 255); padding: 5px 30px; color: rgb(255, 0, 0); font-weight: bold;
+}
+.fielderror label {
+	color: rgb(255, 0, 0);
+}
+.fielderror input {
+	border: 1px solid rgb(255, 0, 0); background-color: rgb(255, 244, 248);
+}
+.fielderror textarea {
+	border: 1px solid rgb(255, 0, 0); background-color: rgb(255, 244, 248);
+}
+.fielderror select {
+	border: 1px solid rgb(255, 0, 0); background-color: rgb(255, 244, 248);
+}
+#processingnotice {
+	padding-top: 8px;
+}
+.processing {
+	background: url("/images/global/neutral/processing.gif") no-repeat 5px rgb(255, 255, 255); padding: 1px 5px 1px 27px;
+}
+.message .processing {
+	margin: 0px 0px 0px -27px;
+}
+.originalprice {
+	background-position: 0% 66%; background-image: url("/images/global/neutral/strike.gif"); background-repeat: repeat-x;
+}
+.discountedprice {
+	color: rgb(204, 0, 0);
+}
+.yoursavings {
+	color: rgb(204, 0, 0);
+}
+#callme {
+	padding: 10px 11px;
+}
+#globe {
+	background: url("/images/labview/us/globe.gif") no-repeat 11px 0px; padding: 9px 0px 0px 47px; height: 40px; color: rgb(6, 95, 163); font-size: 85%; margin-bottom: 10px;
+}
+#globe .arrow {
+	color: rgb(6, 95, 163); font-size: 85%; font-weight: bold;
+}
+#globe a {
+	font-size: 10px; font-weight: bold;
+}
+#pagearea .cta {
+	color: rgb(6, 95, 163); font-weight: bold;
+}
+.cta {
+	color: rgb(6, 95, 163); font-weight: bold;
+}
+.fauxhr {
+	padding-top: 10px; margin-top: 10px; border-top-color: rgb(0, 0, 0); border-top-width: 1px; border-top-style: solid;
+}
+html .cta2007 {
+	background: url("/images/global/neutral/cta_arrow_small.gif") no-repeat 0px 2px; padding-left: 20px;
+}
+html #pagearea p.cta2007 {
+	background: url("/images/global/neutral/cta_arrow_small.gif") no-repeat 0px 2px; padding-left: 20px;
+}
+html #pagearea #contentarea .content p.cta2007 {
+	background: url("/images/global/neutral/cta_arrow_small.gif") no-repeat 0px; padding-left: 20px;
+}
+.datatable {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.datatable caption {
+	padding: 3px; text-align: left; font-weight: bold;
+}
+.datatable thead th {
+	background: rgb(242, 242, 242); font-size: 11px;
+}
+.datatable tbody td {
+	font-size: 11px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.datatable tbody th {
+	color: rgb(85, 85, 85); font-size: 11px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; background-color: rgb(242, 242, 242);
+}
+.medianotice {
+	padding: 10px 0px;
+}
+.duration {
+	color: rgb(102, 102, 102);
+}
+#headerWidgetOutput {
+	top: 4em; width: 747px; text-align: right; color: rgb(153, 153, 153); font-family: Arial, "Arial Unicode", sans-serif; font-size: 11px; position: absolute;
+}
+#headerWidgetOutput a {
+	font-family: Arial, "Arial Unicode", sans-serif; font-size: 11px;
+}
+.talktome {
+	padding: 4px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 2px; border-bottom-style: solid; background-color: rgb(242, 242, 242);
+}
+#upForm {
+	padding: 10px 0px; width: 540px; overflow: hidden; float: left;
+}
+#upForm h2 {
+	padding: 7px 0px; color: rgb(6, 95, 163); font-family: Arial, Helvetica, sans-serif; font-size: 12px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#upForm label {
+	padding: 5px 0px 2px; font-size: 12px; display: block;
+}
+#loginbox {
+	margin: 0px 0px 0px 10px; padding: 10px 0px 10px 20px; border: 1px solid rgb(204, 204, 204); width: 180px; float: left; background-color: rgb(242, 242, 242);
+}
+#up #loginbox {
+	background: rgb(230, 239, 246); margin: 0px; padding: 5px 5px 8px; border: 1px solid rgb(229, 229, 229); width: 170px; float: right;
+}
+#loginbox h2 {
+	border-width: 0px; padding: 4px 0px 10px; font-family: Arial, Verdana, sans-serif; font-size: 14px;
+}
+#loginbox input {
+	margin: 2px 2px 10px 0px; display: block;
+}
+#loginbox label {
+	padding: 2px 0px; display: block;
+}
+#loginbox a {
+	font-size: 10px; margin-bottom: 8px;
+}
+#upForm #privacy label {
+	padding-left: 30px;
+}
+#upForm input {
+	font-size: 12px;
+}
+#upForm select {
+	font-size: 12px;
+}
+#upForm textarea {
+	font-size: 12px;
+}
+#loginbox input {
+	font-size: 12px;
+}
+#pagearea input {
+	font-size: 12px;
+}
+#pagearea select {
+	font-size: 12px;
+}
+#pagearea textarea {
+	font-size: 12px;
+}
+.checkbox {
+	float: left;
+}
+.radio {
+	vertical-align: bottom; display: inline;
+}
+.extrainfo {
+	padding: 2px; font-size: 10px; display: block;
+}
+.up {
+	width: 180px; float: left;
+}
+.upwide {
+	float: left;
+}
+.longlabel {
+	width: 500px;
+}
+.gb {
+	width: 500px; float: left;
+}
+.field {
+	width: 160px;
+}
+p.fyi {
+	margin: 0px; padding: 3px; color: rgb(102, 102, 102); font-size: 11px;
+}
+#loginonly #loginbox {
+	border-width: medium 1px medium medium; border-style: none solid none none; border-color: currentColor rgb(204, 204, 204) currentColor currentColor; margin: 0px 20px 0px 0px; padding: 10px 0px; width: 300px; background-color: rgb(255, 255, 255);
+}
+#loginonly #benefits {
+	padding: 10px 0px;
+}
+#loginonly #benefits h2 {
+	padding: 4px 0px 10px; font-family: Arial, Verdana, sans-serif; font-size: 14px;
+}
+.buttonright {
+	padding: 10px 0px; float: right;
+}
+.buttonleft {
+	padding: 10px 0px;
+}
+#niweekbutton {
+	left: 190px; top: 20px; width: 48px; height: 48px; position: absolute; z-index: 10; background-image: url("/images/niweek/us/2009/niweek09_bug.png"); background-repeat: no-repeat;
+}
+* html #niweekbutton {
+	cursor: pointer; background-image: none;
+}
+#hierarchynavigation {
+	background: rgb(224, 224, 224); margin: 0px 15px 0px 0px; width: 180px; padding-bottom: 6px; border-bottom-color: rgb(130, 175, 209); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+#hierarchynavigation ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+#hierarchynavigation li a {
+	background: url("/images/global/us/white_down.gif") no-repeat 5px 1px rgb(0, 0, 0); padding: 5px 25px 3px 20px; width: 135px; color: rgb(255, 187, 0); font-family: Arial, sans-serif; font-size: 11px; font-weight: bold; border-bottom-color: rgb(130, 175, 209); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#hierarchynavigation li li a {
+	background: url("/images/global/us/white_right.gif") no-repeat 7px 1px rgb(6, 95, 163); color: rgb(255, 255, 255); font-weight: normal;
+}
+#hierarchynavigation li li li a {
+	background: url("/images/global/us/blue_right.gif") no-repeat 7px 1px rgb(193, 215, 232); color: rgb(0, 0, 0); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#hierarchynavigation li li li li a {
+	background: url("/images/global/us/bullet.gif") no-repeat 25px 0px rgb(230, 239, 246); padding: 3px 10px 3px 35px;
+}
+#hierarchynavigation li#advisor {
+	background-color: rgb(6, 95, 163);
+}
+#hierarchynavigation li#advisor a {
+	padding: 5px 0px 3px; width: 180px; border-bottom-color: rgb(130, 175, 209); border-bottom-width: 1px; border-bottom-style: solid; background-image: none;
+}
+#hierarchynavigation li#advisor a:hover {
+	color: rgb(0, 0, 0); background-color: rgb(6, 95, 163);
+}
+#hierarchynavigation li#advisor a img {
+	margin: 0px; padding: 0px;
+}
+#hierarchynavigation li a:hover {
+	text-decoration: none; background-color: rgb(102, 102, 102);
+}
+#hierarchynavigation li li a:hover {
+	background-color: rgb(81, 143, 191);
+}
+#hierarchynavigation li li li a:hover {
+	background-color: rgb(157, 192, 219);
+}
+#hierarchynavigation li li li li a:hover {
+	background-color: rgb(181, 207, 228);
+}
+#hierarchynavigation li a#on {
+	background-image: url("/images/global/us/orange_down.gif");
+}
+#hierarchynavigation li li a#on {
+	background-image: url("/images/global/us/orange_right.gif");
+}
+#hierarchynavigation li li li a#on {
+	background-image: url("/images/global/us/orange_right.gif"); background-color: rgb(255, 255, 255);
+}
+#hierarchynavigation li li li li a#on {
+	background-image: url("/images/global/us/orange_bullet.gif"); background-color: rgb(255, 255, 255);
+}
+#hierarchynavigation li li a#final {
+	color: rgb(0, 0, 0); background-image: url("/images/global/us/orange_right.gif"); background-color: rgb(255, 255, 255);
+}
+#hierarchynavigation li li li a#final {
+	color: rgb(0, 0, 0); background-image: url("/images/global/us/orange_right.gif"); background-color: rgb(255, 255, 255);
+}
+#hierarchynavigation li li li li a#final {
+	color: rgb(0, 0, 0); background-image: url("/images/global/us/orange_bullet.gif"); background-color: rgb(255, 255, 255);
+}
+#hierarchynavigation li li a.haschildren {
+	background-image: url("/images/global/us/white_down.gif");
+}
+#hierarchynavigation li li li a.haschildren {
+	background-image: url("/images/global/us/blue_down.gif");
+}
+#hierarchynavigation li li a.haschildren#on {
+	background-image: url("/images/global/us/orange_down.gif");
+}
+#hierarchynavigation li li li a.haschildren#on {
+	background-image: url("/images/global/us/orange_down.gif");
+}
+#hierarchynavigation li li li li a.haschildren#on {
+	background-image: url("/images/global/us/orange_down.gif");
+}
+li#request_support a {
+	background-position: 5px; padding: 5px 5px 3px 55px; width: 120px; height: 3em; color: rgb(0, 0, 0); font-size: 11px; font-weight: normal; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none; background-image: url("/images/support/us/rs_sidebar_icons.gif"); background-color: rgb(224, 224, 224);
+}
+li#request_support a:hover {
+	color: rgb(0, 0, 0); text-decoration: underline; background-color: rgb(224, 224, 224);
+}
+#toc {
+	margin: 10px 0px; padding: 10px 5px; background-color: rgb(242, 242, 242);
+}
+#toc h2 {
+	border: currentColor;
+}
+#featurearea {
+	margin-bottom: 10px;
+}
+.alt #featurearea {
+	border-width: 10px 0px 0px; border-style: solid; border-color: rgb(6, 95, 163);
+}
+.hw #featurearea {
+	border-width: 10px 0px 0px; border-style: solid; border-color: rgb(6, 95, 163);
+}
+.sw #featurearea {
+	border-width: 10px 0px 0px; border-style: solid; border-color: rgb(255, 187, 0);
+}
+.abstract {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(204, 204, 204); margin: 0px; padding: 10px; background-color: rgb(242, 242, 242);
+}
+.abstract p {
+	margin: 0px; padding: 10px 3px;
+}
+.nofeature .abstract {
+	background-color: rgb(255, 255, 255);
+}
+.content p {
+	margin: 0px; padding: 10px 3px;
+}
+#contentarea {
+	height: 100%;
+}
+#contentarea .content {
+	width: 552px;
+}
+.ltbright#contentarea .content {
+	width: 362px; float: left;
+}
+.ltbleft#contentarea .content {
+	width: 362px; float: left;
+}
+.ltbleft#contentarea .content {
+	margin-left: 15px;
+}
+#corecontent p {
+	line-height: 1.4em;
+}
+#corecontent ul li {
+	line-height: 1.4em;
+}
+#corecontent ol li {
+	line-height: 1.4em;
+}
+#corecontent ul li {
+	margin-bottom: 6px;
+}
+#corecontent ol li {
+	margin-bottom: 6px;
+}
+#corecontent h2.nodeco {
+	font-size: 18px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+#corecontent h4 {
+	padding: 4px; font-family: "Arial Unicode", Arial, Helvetica, sans-serif; font-size: 12px; margin-top: 10px;
+}
+#multimedia #overview {
+	background-color: rgb(255, 255, 255);
+}
+#multimedia .content p {
+	margin: 0px; padding: 10px 3px;
+}
+h2.podcast {
+	background: url("/images/icons/neutral/podcast.gif") no-repeat left rgb(255, 255, 255); padding-left: 40px;
+}
+h2.webcast {
+	background: url("/images/icons/neutral/webcast.gif") no-repeat left top rgb(255, 255, 255); padding-top: 10px; padding-left: 40px;
+}
+h2.video {
+	background: url("/images/icons/neutral/video.gif") no-repeat left top rgb(255, 255, 255); padding-left: 40px;
+}
+h2.tutorial {
+	background: url("/images/icons/neutral/int_tutorial.gif") no-repeat left top rgb(255, 255, 255); padding-top: 13px; padding-left: 40px;
+}
+#multimedia .duration {
+	color: rgb(102, 102, 102);
+}
+#multimedia .series {
+	padding-left: 20px;
+}
+.imageisleft {
+	padding: 10px 5px 0px 0px;
+}
+.datatable {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.datatable caption {
+	padding: 3px; text-align: left; font-weight: bold;
+}
+.datatable thead th {
+	background: rgb(242, 242, 242); font-size: 11px;
+}
+.datatable tbody td {
+	font-size: 11px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.datatable tbody th {
+	color: rgb(85, 85, 85); font-size: 11px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; background-color: rgb(242, 242, 242);
+}
+.ltb #featurearea {
+	height: 100%;
+}
+.ltb #featurearea #overview {
+	padding: 0px; width: 362px; border-top-color: currentColor; border-top-width: medium; border-top-style: none; float: left; background-color: rgb(255, 255, 255);
+}
+.ltb #featurearea .overview {
+	padding: 0px; width: 362px; border-top-color: currentColor; border-top-width: medium; border-top-style: none; float: left; background-color: rgb(255, 255, 255);
+}
+* html body .ltb #featurearea #overview {
+	padding: 10px 0px;
+}
+* html body .ltb #featurearea .overview {
+	padding: 10px 0px;
+}
+.ltb #featurearea .feature {
+	padding: 10px; width: 149px; margin-left: 7px; float: right;
+}
+.ltb #featurearea .feature img {
+	margin: 0px 0px 10px;
+}
+.ltb #featurearea .feature a {
+	font-weight: bold;
+}
+* html dt {
+	margin-right: 3px;
+}
+* html dd {
+	height: 1%; margin-left: 0px;
+}
+.resources {
+	width: 160px; float: left;
+}
+.ltbright .resources {
+	margin-left: 15px;
+}
+.ltbleft .resources {
+	margin-left: 0px;
+}
+.resources h2 {
+	border-color: rgb(204, 204, 204);
+}
+.resources ul {
+	margin: 0px; padding: 5px 0px; list-style-type: none;
+}
+.resources li a {
+	width: 148px; color: rgb(6, 95, 163); font-size: 12px; display: block;
+}
+.resources a:hover {
+	color: rgb(0, 0, 0); background-color: rgb(242, 242, 242);
+}
+html .academic .ltbright#contentarea .content {
+	width: 552px;
+}
+.academic .resources {
+	width: 175px; margin-top: 0px;
+}
+.sector thead th {
+	text-align: left;
+}
+.sector tbody td {
+	width: 30%;
+}
+.fgleft #featurearea .feature {
+	width: 220px; float: left;
+}
+.fgleft #featurearea .abstract {
+	border: currentColor; width: 310px; float: left; background-color: rgb(255, 255, 255);
+}
+.applications#corecontent {
+	width: 752px;
+}
+.applications#corecontent #contentarea .content {
+	width: 752px;
+}
+.highlightedsynopsis td.image {
+	width: 115px;
+}
+.highlightedsynopsis td.text {
+	width: 261px; padding-right: 5px; padding-bottom: 20px;
+}
+.highlightedsynopsis td img {
+	float: left;
+}
+.extras .wide {
+	padding: 0px 5px 0px 0px; width: 559px;
+}
+.extras .skinny {
+	width: 188px;
+}
+#one .highlight {
+	background: url("/images/global/neutral/highlight-background-1.jpg") no-repeat left top rgb(255, 255, 255); margin: 0px 5px 5px 0px; width: 175px; height: 220px; text-align: center;
+}
+#two .highlight {
+	background: url("/images/global/neutral/highlight-background-2.jpg") no-repeat left top rgb(255, 255, 255); margin: 0px 5px 0px 0px; width: 371px;
+}
+#three .highlight {
+	background: url("/images/global/neutral/highlight-background-3.png") no-repeat left top rgb(255, 255, 255); margin: 0px 5px 0px 0px; width: 243px;
+}
+.skinny#two .highlight {
+	background: url("/images/global/neutral/highlight-background-3.png") no-repeat left top rgb(255, 255, 255); margin: 0px 5px 0px 0px; width: 243px;
+}
+.highlight-spacer {
+	border: 1px solid rgb(255, 255, 255); width: 30px; float: left;
+}
+.highlight {
+	height: 160px; float: left;
+}
+.highlight table thead th div {
+	padding: 10px 10px 3px; height: 32px;
+}
+.highlight table thead th a {
+	font-size: 14px; font-weight: bold;
+}
+.highlight table tfoot td div {
+	padding: 5px 35px 0px 0px; height: 15px; text-align: right; font-size: 12px;
+}
+.highlight table tfoot td a {
+	font-weight: bold;
+}
+.highlight table tbody td.text {
+	padding: 4px 10px 0px; color: rgb(102, 102, 102); font-size: 12px;
+}
+.highlight table tbody td.text div {
+	height: 88px; overflow: hidden;
+}
+.highlight table tbody td.image {
+	padding: 8px 0px 0px 10px; width: 104px;
+}
+#one .highlight table thead th div {
+	text-align: center;
+}
+#one .highlight table tfoot td div {
+	padding: 5px 25px 0px 0px;
+}
+#one .highlight table tbody td.image {
+	padding: 8px 0px 0px; width: 175px;
+}
+#one .highlight table tbody td.image div {
+	margin: 0px auto; padding: 0px; width: 104px; text-align: center;
+}
+#one .highlight table tbody td.text div {
+	height: 59px; overflow: hidden;
+}
+#one::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#two::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#three::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#featurearea::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#contentarea::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#one {
+	display: inline-block;
+}
+#two {
+	display: inline-block;
+}
+#three {
+	display: inline-block;
+}
+#featurearea {
+	display: inline-block;
+}
+#contentarea {
+	display: inline-block;
+}
+#one {
+	display: block;
+}
+#two {
+	display: block;
+}
+#three {
+	display: block;
+}
+#featurearea {
+	display: block;
+}
+#contentarea {
+	display: block;
+}
+.questionstext {
+	padding-top: 8px; font-size: 12px; float: right;
+}
+.longextras {
+	margin-top: -12px; display: block;
+}
+* html .longextras {
+	padding-top: 12px;
+}
+.slash {
+	width: 752px;
+}
+.slash .content ul {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#overview ul {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+.slash .content ul li {
+	background: url("/images/global/us/bullet_nopad.gif") no-repeat 5px -1px; line-height: 1.2; padding-left: 17px; margin-bottom: 6px;
+}
+#overview li {
+	background: url("/images/global/us/bullet_nopad.gif") no-repeat 5px -1px; line-height: 1.2; padding-left: 17px; margin-bottom: 6px;
+}
+.slash #contentarea {
+	height: 100%; clear: left;
+}
+.slash #contentarea .content {
+	width: 752px; float: left;
+}
+.slash #contentarea .content h3 {
+	clear: both;
+}
+.slash .ltbright#contentarea .content {
+	width: 565px; float: left;
+}
+.slash .ltbleft#contentarea .content {
+	width: 565px; float: right;
+}
+#productportal4 h3 {
+	margin: 5px 0px; font-size: 12px;
+}
+#productportal3 h3 {
+	margin: 5px 0px; font-size: 12px;
+}
+#productportal2 h3 {
+	margin: 5px 0px; font-size: 12px;
+}
+#productportal4 h4 {
+	margin: 5px 0px; padding: 4px 4px 4px 0px; color: rgb(0, 0, 0); font-size: 12px;
+}
+#productportal3 h4 {
+	margin: 5px 0px; padding: 4px 4px 4px 0px; color: rgb(0, 0, 0); font-size: 12px;
+}
+#productportal2 h4 {
+	margin: 5px 0px; padding: 4px 4px 4px 0px; color: rgb(0, 0, 0); font-size: 12px;
+}
+#productportal4 h5 {
+	margin: 5px 0px; color: rgb(187, 0, 0); font-size: 12px;
+}
+#productportal3 h5 {
+	margin: 5px 0px; color: rgb(187, 0, 0); font-size: 12px;
+}
+#productportal2 h5 {
+	margin: 5px 0px; color: rgb(187, 0, 0); font-size: 12px;
+}
+#productportal4 .punch {
+	margin: 5px 0px; padding: 5px; width: 175px; float: left;
+}
+#productportal3 .punch {
+	margin: 5px 0px; padding: 5px 10px; width: 226px; font-size: 12px; float: left;
+}
+#productportal2 .punch {
+	margin: 5px 0px; padding: 5px 10px; width: 350px; font-size: 12px; float: left;
+}
+#productportal4 ul li {
+	font-size: 12px;
+}
+#productportal3 ul li {
+	font-size: 12px;
+}
+#productportal2 ul li {
+	font-size: 12px;
+}
+#subsetbreakout ul {
+	margin: 0px; padding: 0px; line-height: 1.5; list-style-type: none;
+}
+#productportal2 ul {
+	margin: 0px; padding: 0px; line-height: 1.5; list-style-type: none;
+}
+#productportal3 ul {
+	margin: 0px; padding: 0px; line-height: 1.5; list-style-type: none;
+}
+#productportal4 ul {
+	margin: 0px; padding: 0px; line-height: 1.5; list-style-type: none;
+}
+#subsetbreakout ul li {
+	background: url("/images/global/us/bullet_nopad.gif") no-repeat 1px -1px rgb(255, 255, 255); padding-left: 11px; font-size: 12px;
+}
+#productportal2 li {
+	background: url("/images/global/us/bullet_nopad.gif") no-repeat 1px -1px rgb(255, 255, 255); padding-left: 11px; font-size: 12px;
+}
+#productportal3 li {
+	background: url("/images/global/us/bullet_nopad.gif") no-repeat 1px -1px rgb(255, 255, 255); padding-left: 11px; font-size: 12px;
+}
+#productportal4 li {
+	background: url("/images/global/us/bullet_nopad.gif") no-repeat 1px -1px rgb(255, 255, 255); padding-left: 11px; font-size: 12px;
+}
+#scanmenu ul {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+#pagearea #scanmenu ul li {
+	margin: 0px; padding: 0px; background-image: none;
+}
+#scanmenu ul li a {
+	padding: 6px 10px 5px; width: 160px; font-family: "Arial Unicode", Arial, Helvetica, sans-serif; display: block; background-image: none;
+}
+.hw #scanmenu ul li a {
+	color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; background-color: rgb(6, 95, 163);
+}
+.alt #scanmenu ul li a {
+	color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid; background-color: rgb(6, 95, 163);
+}
+.sw #scanmenu ul li a {
+	color: rgb(0, 0, 0); border-top-color: rgb(255, 219, 120); border-top-width: 1px; border-top-style: solid; background-color: rgb(255, 187, 0);
+}
+#scanmenu span {
+	color: rgb(187, 0, 0); font-weight: bold;
+}
+td#scanmenu {
+	width: 180px;
+}
+.hw td#scanmenu {
+	background-color: rgb(6, 95, 163);
+}
+.alt td#scanmenu {
+	background-color: rgb(6, 95, 163);
+}
+.sw td#scanmenu {
+	background-color: rgb(255, 187, 0);
+}
+.swprime td#scanmenu {
+	background-color: rgb(255, 187, 0);
+}
+#pagearea dl.poverview {
+	margin: 0px; width: 100%; clear: both;
+}
+#pagearea dl.poverview dt {
+	margin: 10px 0px 0px; padding: 0px 0px 10px 8px; width: 104px; text-align: center; float: left;
+}
+#pagearea dl.poverview dd {
+	margin: 0px 0px 0px 120px; padding: 10px 5px 10px 0px;
+}
+#pagearea dl.poverview dd p {
+	font-family: "Arial Unicode", Arial, Helvetica, sans-serif;
+}
+#pagearea dl.poverview dd a {
+	font-family: "Arial Unicode", Arial, Helvetica, sans-serif; font-weight: bold;
+}
+#pagearea dl.poverview dd p a {
+	font-family: "Arial Unicode", Arial, Helvetica, sans-serif; font-weight: normal;
+}
+#pagearea dl.poverview dd ul li a {
+	font-family: "Arial Unicode", Arial, Helvetica, sans-serif; font-weight: normal;
+}
+#pagearea dl.noicon dd {
+	margin: 0px; padding: 10px 5px 10px 0px;
+}
+#pagearea dl.poverview::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+#pagearea dl.poverview {
+	display: inline-block;
+}
+#pagearea dl.poverview {
+	display: block;
+}
+#corecontent .testimonial {
+	border-top-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; background-color: rgb(242, 242, 242);
+}
+#corecontent .testimonial p {
+	margin: 0px; padding: 14px; color: rgb(121, 121, 121); font-family: "Arial Narrow", Arial Unicode, sans-serif; font-size: 14px; font-weight: bold;
+}
+#corecontent .testimonial p.sig {
+	color: rgb(110, 110, 110); padding-top: 0px;
+}
+#productportal4 h4 div {
+	color: rgb(255, 138, 0); font-weight: bold; display: inline;
+}
+#productportal3 h4 div {
+	color: rgb(255, 138, 0); font-weight: bold; display: inline;
+}
+#productportal2 h4 div {
+	color: rgb(255, 138, 0); font-weight: bold; display: inline;
+}
+#minibreakout td {
+	width: 50%;
+}
+.featuredcs td {
+	padding: 4px 4px 20px;
+}
+.featuredcs td p {
+	margin: 0px; padding: 0px;
+}
+.featuredcs td img {
+	margin: 3px 0px 0px; padding: 0px;
+}
+.platform .ltbright#contentarea .content {
+	width: 500px; float: left;
+}
+.platform .ltbleft#contentarea .content {
+	width: 500px; float: right;
+}
+#platformportal {
+	width: 235px; float: left;
+}
+.ltbright #platformportal {
+	margin-left: 15px;
+}
+.ltbleft #platformportal {
+	margin-left: 0px;
+}
+#platformportal h3 {
+	margin: 0px; padding: 3px 0px;
+}
+* html dt {
+	margin-right: 3px;
+}
+* html dd {
+	height: 1%; margin-left: 0px;
+}
+.prodright#contentarea .content {
+	width: 500px; float: left;
+}
+#subsetbreakout {
+	margin: 2px 0px 0px 10px; width: 225px; float: left;
+}
+#subsetbreakout img {
+	padding: 5px 0px 5px 5px; float: right;
+}
+#contentarea p.ltb {
+	font-size: 12px; margin-bottom: 10px;
+}
+#subsetbreakout ul li {
+	background-position: 4px -1px; padding-left: 14px;
+}
+.multimedia-t1 h2 {
+	border: 0px currentColor;
+}
+.multimedia-t1 h3 {
+	border: 0px currentColor;
+}
+.multimedia-t1 h2 {
+	border: 0px currentColor;
+}
+.multimedia-t1 h3 {
+	border: 0px currentColor;
+}
+.multimedia-t1 h2 {
+	border: 0px currentColor;
+}
+.multimedia-t1 h3 {
+	border: 0px currentColor;
+}
+.multimedia-t2 h3 {
+	border: 0px currentColor;
+}
+.multimedia-t2 h3 {
+	border: 0px currentColor;
+}
+.multimedia-t2 h3 {
+	border: 0px currentColor;
+}
+.multimedia-t1 #featurearea .feature {
+	padding: 10px 0px 0px; width: 552px; float: left;
+}
+.multimedia-t1 #featurearea .overview {
+	padding: 35px 0px 0px 10px; width: 190px; float: left; background-color: rgb(255, 255, 255);
+}
+.multimedia-t1 #featurearea .overview h2 {
+	margin: 0px; padding: 0px;
+}
+.multimedia-t1 #featurearea .overview p {
+	margin: 0px; padding: 0px;
+}
+.multimedia-t1 #featurearea::after {
+	height: 0px; clear: both; display: block; content: "";
+}
+.multimedia-t1 #featurearea {
+	display: inline-block;
+}
+.multimedia-t1 #featurearea {
+	display: block;
+}
+* html .multimedia-t1 #featurearea {
+	height: 1%;
+}
+.multimedia-t1 #contentarea {
+	height: 100%; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.multimedia-t1 #contentarea .content {
+	width: 552px; float: left;
+}
+.multimedia-t1 #contentarea .moreinfo {
+	width: 200px; float: left;
+}
+.multimedia-t1 #contentarea .moreinfo::after {
+	height: 0px; clear: both; display: block; content: "";
+}
+.multimedia-t1 #contentarea .moreinfo {
+	display: inline-block;
+}
+.multimedia-t1 #contentarea .moreinfo {
+	display: block;
+}
+* html .multimedia-t1 #contentarea .moreinfo {
+	height: 1%;
+}
+.multimedia-t2 #featurearea .feature {
+	padding: 10px 0px 0px; width: 360px; float: left;
+}
+.multimedia-t2 #featurearea .overview {
+	padding: 35px 0px 0px 10px; width: 172px; float: left; background-color: rgb(255, 255, 255);
+}
+.multimedia-t2 #featurearea .overview h2 {
+	border-width: 0px; margin: 0px; padding: 0px;
+}
+.multimedia-t1 #featurearea .overview p {
+	border-width: 0px; margin: 0px; padding: 0px;
+}
+.multimedia-t3 h3 {
+	border: 0px currentColor;
+}
+.multimedia-t3 .overview h2 {
+	border: 0px currentColor;
+}
+.multimedia-t3 #featurearea .feature {
+	padding: 10px 0px 0px; width: 552px; float: left;
+}
+.multimedia-t3 #featurearea .overview {
+	padding: 35px 0px 0px 10px; width: 190px; float: left; background-color: rgb(255, 255, 255);
+}
+.multimedia-t3 #featurearea .overview h2 {
+	margin: 0px; padding: 0px;
+}
+.multimedia-t1 #featurearea .overview p {
+	margin: 0px; padding: 0px;
+}
+.multimedia-t3 #featurearea::after {
+	height: 0px; clear: both; display: block; content: "";
+}
+.multimedia-t3 #featurearea {
+	display: inline-block;
+}
+.multimedia-t3 #featurearea {
+	display: block;
+}
+* html .multimedia-t3 #featurearea {
+	height: 1%;
+}
+.multimedia-t3 #contentarea {
+	height: 100%; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.multimedia-t3 #contentarea .content {
+	width: 752px; float: left;
+}
+.productoverview .icon {
+	padding: 15px 0px 0px; width: 110px;
+}
+.productoverview .description {
+	padding: 0px 0px 0px 10px;
+}
+#corecontent .condensed td {
+	padding: 5px 10px 0px 5px; width: 30%;
+}
+#corecontent .condensed dl {
+	margin: 5px 0px; padding: 0px;
+}
+#corecontent .condensed dt {
+	margin: 15px 0px 0px; padding: 2px 2px 2px 0px; font-size: 12px; font-weight: bold;
+}
+#corecontent .condensed dd {
+	margin: 0px; padding: 0px 2px 0px 0px; font-size: 12px; word-spacing: 0.2em; display: inline;
+}
+#corecontent .expanded {
+	padding: 5px 0px 20px 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#corecontent .expanded dt {
+	margin: 15px 2px 0px; padding: 2px; font-size: 12px; font-weight: bold;
+}
+#corecontent .expanded dd {
+	margin: 0px 2px; padding: 2px; width: 160px; color: rgb(153, 153, 153); font-size: 12px;
+}
+#corecontent .expanded a {
+	font-size: 12px;
+}
+.demo #featurearea .feature {
+	padding: 10px 10px 0px 0px; width: 200px; float: left;
+}
+.demo #featurearea #overview {
+	border: 0px currentColor; width: 300px; float: left;
+}
+.demo .icon {
+	padding: 10px 0px 0px; width: 110px;
+}
+.refarch h2 {
+	margin: 0px; padding: 4px 0px; border: 0px currentColor;
+}
+.refarch h3 {
+	margin: 0px; padding: 4px 0px; border: 0px currentColor;
+}
+.refarch h2 {
+	margin: 0px; padding: 4px 0px; border: 0px currentColor;
+}
+.refarch h3 {
+	margin: 0px; padding: 4px 0px; border: 0px currentColor;
+}
+.refarch h2 {
+	margin: 0px; padding: 4px 0px; border: 0px currentColor;
+}
+.refarch h3 {
+	margin: 0px; padding: 4px 0px; border: 0px currentColor;
+}
+.refarch h2 {
+	font-size: 16px;
+}
+.refarch #featurearea .feature {
+	padding: 10px 0px 0px; width: 752px;
+}
+.refarch #contentarea {
+	height: 100%;
+}
+.refarch #contentarea .content {
+	width: 430px; float: left;
+}
+.refarch #contentarea .moreinfo {
+	padding: 0px 0px 0px 20px; width: 302px; float: left;
+}
+.refarch #contentarea .moreinfo::after {
+	height: 0px; clear: both; display: block; content: "";
+}
+.refarch #contentarea .moreinfo {
+	display: inline-block;
+}
+.refarch #contentarea .moreinfo {
+	display: block;
+}
+* html .refarch #contentarea .moreinfo {
+	height: 1%;
+}
+.refarch #solutionsresources {
+	padding-top: 15px;
+}
+.takeaction {
+	background-color: rgb(242, 242, 242);
+}
+.takeaction .header {
+	padding: 0px 20px;
+}
+.vector1 #featurearea {
+	margin: 0px 0px 20px; padding: 20px 0px 0px;
+}
+.vector1 .feature {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(204, 204, 204); padding: 20px;
+}
+.vector1 .overview {
+	
+}
+.vector1 .overview p {
+	margin: 0px; padding: 0px; line-height: 18px; font-size: 14px;
+}
+.vector1 h2 {
+	font-size: 16px;
+}
+.vector1 h3 {
+	font-size: 13px;
+}
+.vector1 .takeaction .curvedtop {
+	background: url("/images/curves/grid12-top-nb.gif") no-repeat left top; height: 5px; overflow: hidden;
+}
+.vector1 .takeaction .curvedbottom {
+	background: url("/images/curves/grid12-bottom-nb.gif") no-repeat left top; height: 5px; overflow: hidden; clear: left;
+}
+.floatleft {
+	float: left;
+}
+.standardgutter {
+	padding: 8px;
+}
+.standardpadding {
+	padding: 10px 20px;
+}
+#vector {
+	width: 752px;
+}
+#vector h1 {
+	border-bottom-color: rgb(6, 95, 163); border-bottom-width: 5px; border-bottom-style: solid;
+}
+#vector h2 {
+	font-size: 12px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 5px; border-bottom-style: solid;
+}
+#vector #featurearea {
+	width: 762px; height: 100%;
+}
+.level1#vector #featurearea .feature {
+	width: 752px;
+}
+#vector #contentarea #overview {
+	margin: 0px; padding: 10px 10px 35px; width: 220px; background-color: rgb(242, 242, 242);
+}
+#vector #contentarea #overview {
+	
+}
+#vector #contentarea #overview h2 {
+	border: currentColor;
+}
+#vector #contentarea {
+	width: 762px; height: 100%;
+}
+#vector #contentarea .content {
+	width: 500px; float: left;
+}
+#vector #contentarea .extracontent {
+	width: 752px;
+}
+.level1#vector #contentarea .resources {
+	margin: 0px 0px 0px 22px; padding: 11px 0px 0px 8px; width: 220px; float: left;
+}
+#vector .imagedetails {
+	float: right;
+}
+.level2#vector #featurearea {
+	width: 500px; float: left;
+}
+.level2#vector #contentarea {
+	margin: 0px 0px 0px 4px; padding: 0px 0px 0px 8px; width: 220px; float: left;
+}
+.nonav {
+	width: 752px;
+}
+.nonav #featurearea {
+	width: 752px;
+}
+.nonav .ltbright#contentarea .content {
+	width: 572px;
+}
+.nonav #contentarea .content {
+	width: 752px;
+}
+#gallery {
+	width: 752px;
+}
+#gallery #contentarea .content {
+	width: 752px;
+}
+.gallery {
+	margin: 5px 0px 10px; padding: 5px; color: rgb(0, 0, 0); background-color: rgb(242, 242, 242);
+}
+.divider {
+	margin: 15px 0px 0px; width: 98%; height: 0px; clear: left; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+#pagearea #gallery .gallery p {
+	margin: 10px 0px; padding: 5px;
+}
+#pagearea #gallery .gallery ul {
+	margin: 0px; padding: 0px 0px 0px 5px;
+}
+#pagearea #gallery .gallery ul li {
+	padding: 5px 10px 5px 0px; display: inline; background-image: none;
+}
+.company#corecontent h1 {
+	padding: 20px 0px 0px;
+}
+.company#corecontent h2 {
+	font-size: 14px;
+}
+.company#corecontent .overview p {
+	line-height: 1.5em; font-size: 14px;
+}
+.company#corecontent .column h2 {
+	padding-bottom: 5px;
+}
+.news#corecontent .headlines {
+	padding: 0px 20px 0px 0px; width: 400px; float: left;
+}
+.news#corecontent h2 {
+	font-size: 18px; font-weight: normal;
+}
+.news#corecontent .feature {
+	width: 380px; color: rgb(255, 255, 255);
+}
+.news#corecontent .feature-content a {
+	color: rgb(255, 255, 255);
+}
+.news#corecontent .feature-content {
+	width: 360px; height: 210px; color: rgb(255, 255, 255); padding-left: 20px; background-color: rgb(0, 0, 0);
+}
+.news#corecontent .secondary {
+	width: 340px; float: left;
+}
+#advert {
+	background: rgb(230, 239, 246); border-width: 1px 0px 2px; border-style: solid; border-color: rgb(168, 199, 223); padding: 10px;
+}
+.extraaddin {
+	margin-top: 10px;
+}
+#punch1 {
+	padding: 5px 0px; width: 177px; float: left;
+}
+#punch2 {
+	padding: 5px 0px; width: 177px; float: left;
+}
+#punch3 {
+	padding: 5px 0px; width: 177px; float: left;
+}
+#punch1 {
+	margin-right: 10px;
+}
+#punch2 {
+	margin-right: 10px;
+}
+#punch1 p {
+	padding: 0px 5px; font-size: 90%;
+}
+#punch2 p {
+	padding: 0px 5px; font-size: 90%;
+}
+#punch3 p {
+	padding: 0px 5px; font-size: 90%;
+}
+#punchtext {
+	clear: both;
+}
+.slash #punch123 #punch1 {
+	width: 33%; float: none;
+}
+.slash #punch123 #punch2 {
+	width: 33%; float: none;
+}
+.slash #punch123 #punch3 {
+	width: 33%; float: none;
+}
+.actualcontent {
+	margin: 0px 2px 0px 0px; padding: 0px 10px; border: 1px solid rgb(239, 240, 240); background-color: rgb(239, 240, 240);
+}
+.curvedcontent .top {
+	background: url("/images/academic/neutral/curved-cap.gif") no-repeat left top; margin: 0px; padding: 0px; height: 8px;
+}
+.curvedcontent .bottom {
+	background: url("/images/academic/neutral/curved-seat.gif") no-repeat left bottom; margin: 0px; padding: 0px; height: 8px;
+}
+h2.educators {
+	background: url("/images/academic/neutral/educators.gif") no-repeat left top;
+}
+h2.researchers {
+	background: url("/images/academic/neutral/researchers.gif") no-repeat left top;
+}
+h2.students {
+	background: url("/images/academic/neutral/students.gif") no-repeat left top;
+}
+h2.educators {
+	height: 20px; color: rgb(255, 255, 255); padding-left: 10px;
+}
+h2.researchers {
+	height: 20px; color: rgb(255, 255, 255); padding-left: 10px;
+}
+h2.students {
+	height: 20px; color: rgb(255, 255, 255); padding-left: 10px;
+}
+.educators a {
+	color: rgb(255, 255, 255);
+}
+.researchers a {
+	color: rgb(255, 255, 255);
+}
+.students a {
+	color: rgb(255, 255, 255);
+}
+.academic .middle {
+	padding: 0px 0px 0px 8px;
+}
+.academic#corecontent h2 {
+	font-size: 16px;
+}
+.academic#corecontent h3 {
+	padding: 10px 0px 0px; font-size: 14px; margin-bottom: 0px;
+}
+#academicresources p {
+	margin: 0px; padding: 5px 0px;
+}
+body #corecontent #academicresources p.cta2007 {
+	background-position: 1px 7px;
+}
+h1.educators {
+	padding: 15px 0px 5px; color: rgb(98, 189, 25);
+}
+h1.researchers {
+	padding: 15px 0px 5px; color: rgb(176, 35, 42);
+}
+h1.students {
+	padding: 15px 0px 5px; color: rgb(205, 88, 6);
+}
+.academic #contentarea td p {
+	margin: 0px; padding: 15px 0px;
+}
+.academic #contentarea td p.cta2007 {
+	background-position: 0px 2px; padding: 0px 0px 10px 20px;
+}
+.academic #contentarea .column p.cta2007 {
+	background-position: 0px 2px; padding: 0px 0px 10px 20px;
+}
+.academic .column p {
+	margin: 0px; padding: 5px 0px;
+}
+.solutions#corecontent h2 {
+	font-size: 16px;
+}
+.solutions#corecontent h3 {
+	padding: 10px 0px 0px; font-size: 14px; margin-bottom: 0px;
+}
+.solution-app-steps {
+	margin: 0px 0px 20px; padding: 10px 10px 10px 0px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.solution-app-steps a.active {
+	background: url("/images/solutions/neutral/blue-arrow.gif") no-repeat right; padding: 3px 12px 3px 3px; color: rgb(0, 0, 0); font-size: 16px; font-weight: bold; margin-right: 20px;
+}
+.solutions#corecontent .solution-app-steps-content a {
+	background: url("/images/solutions/neutral/blue-arrow.gif") no-repeat right; padding: 3px 12px 3px 3px; color: rgb(0, 0, 0); font-size: 16px; font-weight: bold; margin-right: 20px;
+}
+.solutions#corecontent .solution-app-steps-content a {
+	color: rgb(6, 95, 163);
+}
+.solution-app-steps a.inactive {
+	background: url("/images/solutions/neutral/grey-arrow.gif") no-repeat right; padding: 3px 12px 3px 3px; font-size: 16px; margin-right: 20px;
+}
+.solution-app-steps-bottom {
+	margin: 20px 0px; padding: 10px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.solution-app-steps-bottom td {
+	font-size: 16px;
+}
+.solution-app-steps-content p {
+	font-size: 16px;
+}
+.solution-app-steps-bottom td.back {
+	background: url("/images/solutions/neutral/back-arrow.gif") no-repeat left; padding-left: 12px;
+}
+.solution-app-steps-bottom td.goto {
+	background: url("/images/solutions/neutral/blue-arrow.gif") no-repeat right; padding-right: 12px;
+}
+.solution-app-content .goto {
+	background: url("/images/solutions/neutral/blue-arrow.gif") no-repeat right; padding-right: 12px;
+}
+.solutions#corecontent h3.contact {
+	margin: 4px 0px; padding: 8px 5px; font-size: 12px; background-color: rgb(255, 255, 255);
+}
+#solutionsresources p {
+	margin: 0px; padding: 5px 0px;
+}
+.solutions#corecontent p.quote {
+	padding-top: 0px; font-size: 16px; font-weight: bold; margin-top: 0px;
+}
+.solutions#corecontent p.quote span {
+	font-size: 12px; font-weight: normal;
+}
+.industry#corecontent {
+	padding-top: 10px;
+}
+.solutions .imageneedstoppadding {
+	padding-top: 10px;
+}
+.contactdudeimage {
+	padding: 7px 10px 0px 0px;
+}
+.solutions .break {
+	height: 20px; clear: both;
+}
+#corecontent #solutionsresources p.cta2007 {
+	background-position: 0px 2px; padding: 0px 0px 10px 20px;
+}
+.industry h2 {
+	padding: 0px 0px 15px;
+}
+.industry .overview h2 {
+	padding-top: 15px;
+}
+.approach h2 {
+	margin: 5px 0px 0px; padding: 5px 0px 0px;
+}
+.solution h2 {
+	padding-top: 0px; margin-top: 0px;
+}
+.solutions-spacer {
+	height: 30px;
+}
+.solutions .imageisleft {
+	width: 110px;
+}
+.careers#corecontent h2 {
+	font-size: 16px;
+}
+.careers#corecontent h3 {
+	padding: 10px 0px 0px; font-size: 14px; margin-bottom: 0px;
+}
+.grid4-5 {
+	width: 340px;
+}
+.careers .middle {
+	padding: 0px 0px 0px 8px;
+}
+#pagearea .niweek ul li {
+	padding: 0px; background-image: none;
+}
+.niweek#corecontent h1 {
+	padding: 0px 0px 10px; font-family: Arial, sans-serif; font-size: 16px; margin-bottom: 0px;
+}
+.niweek#corecontent h2 {
+	padding: 12px 0px 5px; font-size: 14px; margin-bottom: 0px;
+}
+.niweek#corecontent h3 {
+	padding: 10px 0px 0px; font-size: 12px; margin-bottom: 0px;
+}
+.niweek#corecontent .fakeh1 {
+	margin: 8px 0px 0px; color: rgb(0, 0, 0); font-family: "Arial Narrow", sans-serif; font-size: 22px; font-weight: bold;
+}
+.niweek .middle {
+	padding: 0px 0px 0px 8px;
+}
+.niweek-sections {
+	padding: 20px 0px; font-size: 16px;
+}
+.niweek-sections a {
+	color: rgb(6, 95, 163); padding-right: 20px;
+}
+.main a.main {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.main h1 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.main h2 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.main h3 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.main h4 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.attend a.attend {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.attend h1 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.attend h2 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.attend h3 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.attend h4 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.experience a.experience {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.experience h1 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.experience h2 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.experience h3 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.experience h4 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.exhibit a.exhibit {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.exhibit h1 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.exhibit h2 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.exhibit h3 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.exhibit h4 {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.main a.main {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.attend a.attend {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.experience a.experience {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.exhibit a.exhibit {
+	color: rgb(0, 0, 0); font-weight: bold;
+}
+.niweek#corecontent p {
+	margin: 0px; padding: 5px 0px;
+}
+.main #featuredthing {
+	background: url("/images/niweek/neutral/2010/niweek-bug.jpg") no-repeat left top rgb(255, 255, 255); margin: 0px 0px 0px 13px; padding: 7px 30px 10px 20px; width: 179px; height: 112px;
+}
+.attend #featuredthing {
+	background: url("/images/niweek/neutral/2010/attend-bug.jpg") no-repeat left top rgb(255, 255, 255); margin: 0px 0px 0px 13px; padding: 7px 30px 10px 20px; width: 179px; height: 112px;
+}
+.experience #featuredthing {
+	background: url("/images/niweek/neutral/2010/experience-bug.jpg") no-repeat left top rgb(255, 255, 255); margin: 0px 0px 0px 13px; padding: 7px 30px 10px 20px; width: 179px; height: 112px;
+}
+.exhibit #featuredthing {
+	background: url("/images/niweek/neutral/2010/exhibit-bug.jpg") no-repeat left top rgb(255, 255, 255); margin: 0px 0px 0px 13px; padding: 7px 30px 10px 20px; width: 179px; height: 112px;
+}
+.niweek #featuredthing h2 {
+	margin: 0px; padding: 2px 0px 4px;
+}
+.niweek#corecontent #featuredthing h2 a {
+	color: rgb(255, 255, 255);
+}
+.niweek #navigation {
+	padding: 0px 0px 0px 18px; height: 185px;
+}
+.main #navigation {
+	padding: 30px 0px 0px 18px;
+}
+.niweek #navigation ul {
+	margin: 0px; padding: 0px;
+}
+.niweek #navigation ul li {
+	background: url("/images/niweek/neutral/dotted.gif") no-repeat left bottom rgb(255, 255, 255); margin: 0px; padding: 0px 0px 10px;
+}
+.niweek #navigation ul li a {
+	font-weight: bold;
+}
+.niweek #promotions {
+	padding-top: 15px; padding-left: 18px;
+}
+.niweek #navigation ul li.noline {
+	background-image: none;
+}
+.main #navigation-nologo {
+	padding: 0px 0px 0px 18px; height: 185px;
+}
+.niweek #navigation-nologo ul {
+	margin: 0px; padding: 0px;
+}
+.niweek #navigation-nologo ul li {
+	background: url("/images/niweek/neutral/dotted.gif") no-repeat left bottom rgb(255, 255, 255); margin: 0px; padding: 0px 0px 10px;
+}
+.niweek #navigation-nologo ul li a {
+	font-weight: bold;
+}
+.niweek #navigation-nologo ul li.noline {
+	background-image: none;
+}
+.niweek .content {
+	padding: 0px 10px 0px 0px; line-height: 1.4em;
+}
+.niweek .contentimage {
+	padding-top: 10px;
+}
+.niweek .clearcolumns {
+	height: 10px; clear: right;
+}
+.niweek#corecontent .column p.cta2007 {
+	background-position: 0px 2px; padding: 0px 0px 10px 20px; color: rgb(6, 95, 163);
+}
+.niweek#corecontent h4 {
+	margin: 0px; padding: 0px;
+}
+.main .feature {
+	width: 721px; height: 162px;
+}
+.attend .feature {
+	width: 721px; height: 162px;
+}
+.experience .feature {
+	width: 721px; height: 162px;
+}
+.exhibit .feature {
+	width: 721px; height: 162px;
+}
+#niweekresources {
+	padding-top: 82px;
+}
+.events#corecontent h2 {
+	font-size: 16px;
+}
+.events#corecontent h3 {
+	font-size: 14px;
+}
+.containerlesscontent {
+	padding: 0px 10px 0px 15px;
+}
+.events#corecontent .datatable tbody th {
+	font-size: 14px; font-weight: normal;
+}
+.events#corecontent .datatable tbody td {
+	font-size: 12px;
+}
+.dividing-line {
+	text-align: right; padding-top: 10px; margin-top: 15px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.important-words a {
+	margin: 0px; padding: 0px; line-height: 2em; font-size: 16px; font-weight: bold;
+}
+table.two-column td {
+	width: 50%;
+}
+table.three-column td {
+	width: 33%;
+}
+table.four-column td {
+	width: 25%;
+}
+td.left {
+	padding-right: 10px;
+}
+td.middle {
+	padding: 0px 10px;
+}
+td.right {
+	padding-left: 10px;
+}
+.citizenship#corecontent p {
+	margin: 0px; padding: 0px 0px 10px;
+}
+.citizenship#corecontent table.nobullets td ul li {
+	padding: 0px; font-size: 11px; background-image: none;
+}
+.citizenship#corecontent p.pullquote {
+	color: rgb(6, 95, 163); line-height: 1.5em; font-weight: bold;
+}
+.citizenship#corecontent p.pullquote span.pullquoteattribute {
+	color: rgb(102, 102, 102); font-weight: normal;
+}
+.citizenship#corecontent h2 {
+	padding: 25px 0px 0px; font-size: 16px; margin-bottom: 0px;
+}
+.citizenship#corecontent h3 {
+	padding: 10px 0px 0px; font-size: 14px; margin-bottom: 0px;
+}
+.citizenship#corecontent td h3 {
+	padding: 10px 0px;
+}
+.cta2009 {
+	background: url("/images/global/neutral/sprites/ni_icons_sprite.gif") no-repeat 0px -142px; padding: 1px 0px 1px 22px; font-size: 12px; font-weight: bold;
+}
+.highball#corecontent h2 {
+	font-size: 16px;
+}
+.highball#corecontent h3 {
+	font-size: 14px;
+}
+.highball#corecontent .feature {
+	padding: 10px 0px 0px;
+}
+.highball#corecontent .tabs a span {
+	color: rgb(0, 0, 0); font-size: 14px;
+}
+.highball#corecontent ul {
+	margin: 0px;
+}
+.highball#corecontent ul.tabs li.ui-tabs-selected {
+	margin: 0px 6px 0px 0px;
+}
+.highball#corecontent ul.tabs li {
+	margin: 5px 6px 0px 0px;
+}
+.highball#corecontent ul li {
+	padding-left: 0px; background-image: url("/images/global/us/invis.gif");
+}
+.highball#corecontent .cap {
+	background: url("/images/global/neutral/tabs/grid12_gradient_tabbed_cap.gif") no-repeat right top; height: 18px; clear: both;
+}
+.highball#corecontent .foot {
+	background: url("/images/global/neutral/rounded/grid12_rounded_foot.gif") no-repeat left top; height: 10px;
+}
+.highball#corecontent .thoseimages {
+	padding: 20px 0px 0px; width: 110px;
+}
+.highball#corecontent .thatcontent {
+	padding: 10px 0px 0px;
+}
+.highball#corecontent .browse {
+	padding: 0px 0px 0px 20px;
+}
+.highball#corecontent .browse td {
+	padding: 0px 0px 20px 4px; width: 150px; line-height: 1.5em;
+}
+.highball#corecontent .browse th {
+	font-size: 16px; font-weight: bold;
+}
+.highball#corecontent .browse img {
+	padding: 0px 0px 5px;
+}
+.highball#corecontent .application {
+	background: url("/images/global/neutral/box.gif") no-repeat left top; width: 245px; height: 253px;
+}
+.highball#corecontent .application .applicationcontent {
+	padding: 10px 15px 10px 10px;
+}
+.highball#corecontent .application .header {
+	height: 35px;
+}
+.highball#corecontent .application .description {
+	height: 70px;
+}
+.highball#corecontent .someresources h3 {
+	padding: 5px 0px;
+}
+.highball#corecontent .someresources p {
+	margin: 0px; padding: 0px;
+}
+.title1 {
+	font-family: Arial Narrow, Arial, sans-serif; font-size: 22px; font-weight: bold;
+}
+.Title1 {
+	font-family: Arial Narrow, Arial, sans-serif; font-size: 22px; font-weight: bold;
+}
+.title2 {
+	font-family: Arial Narrow, Arial, sans-serif; font-size: 18px; font-weight: bold;
+}
+.tableheader {
+	color: rgb(230, 122, 60); font-size: 12px; font-weight: bold; background-color: rgb(255, 255, 255);
+}
+.tablebg {
+	background-color: rgb(246, 246, 246);
+}
+.tablegbg {
+	background-color: rgb(204, 204, 204);
+}
+.tablebbg {
+	background-color: rgb(204, 204, 204);
+}
+.linebuffer {
+	padding: 0px; background-color: rgb(255, 255, 255);
+}
+.header1 {
+	padding: 4px; font-size: 12px; font-weight: bold; margin-top: 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.subheader {
+	color: rgb(0, 0, 0); font-weight: bold; background-color: rgb(230, 239, 246);
+}
+.container {
+	border: 1px solid rgb(204, 204, 204);
+}
+.container2 {
+	border-width: 1px 0px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.containertop {
+	border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.containerbottom {
+	border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.titlebar {
+	padding: 3px; font-size: 12px; font-weight: bold; margin-top: 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.globalbg {
+	background-color: rgb(204, 204, 204);
+}
+.sw .pagetitle {
+	border-bottom-color: rgb(255, 218, 115); border-bottom-width: 10px; border-bottom-style: solid;
+}
+.hw .pagetitle {
+	border-bottom-color: rgb(6, 95, 163); border-bottom-width: 10px; border-bottom-style: solid;
+}
+.alt .pagetitle {
+	border-bottom-color: rgb(6, 95, 163); border-bottom-width: 10px; border-bottom-style: solid;
+}
+.swprime .pagetitle {
+	border-bottom-color: rgb(255, 187, 0); border-bottom-width: 10px; border-bottom-style: solid;
+}
+.pagetitle h2 {
+	margin: 0px 0px 5px; font-size: 14px;
+}
+.sw h3.titlebar {
+	background-color: rgb(255, 247, 224);
+}
+.swprime h3.titlebar {
+	background-color: rgb(255, 247, 224);
+}
+.hw h3.titlebar {
+	background-color: rgb(230, 239, 246);
+}
+.alt h3.titlebar {
+	background-color: rgb(230, 239, 246);
+}
+.sw h3.black5 {
+	background-color: rgb(242, 242, 242);
+}
+.swprime h3.black5 {
+	background-color: rgb(242, 242, 242);
+}
+.hw h3.black5 {
+	background-color: rgb(242, 242, 242);
+}
+.alt h3.black5 {
+	background-color: rgb(242, 242, 242);
+}
+.top {
+	padding: 10px 0px; text-align: right; text-transform: uppercase; font-size: 11px;
+}
+.fineprint p {
+	font-size: 11px;
+}
+.arrow {
+	color: rgb(187, 0, 0); font-size: 12px; font-weight: bold;
+}
+.opaquetable {
+	background-color: rgb(246, 246, 246);
+}
+#header7 {
+	padding: 4px 4px 4px 5px; color: rgb(0, 0, 0); font-weight: bold; margin-top: 0px;
+}
+#header6 {
+	padding: 4px 4px 4px 5px; color: rgb(0, 0, 0); font-weight: bold; margin-top: 0px;
+}
+#header6 {
+	font-weight: normal;
+}
+.utilitytablebg {
+	background-color: rgb(130, 175, 209);
+}
+.utilitytableheader {
+	padding: 5px 14px 4px 10px; text-align: left; color: rgb(130, 175, 209); font-size: 12px; font-weight: bold; background-color: rgb(230, 239, 246);
+}
+#tertiarynavigation .utilitytablebg {
+	margin: 0px 0px 10px 20px;
+}
+.tableborder {
+	background-color: rgb(159, 179, 204);
+}
+.dottedline {
+	background: url("/images/global/us/line.gif") repeat-x rgb(255, 255, 255);
+}
+.tableheader2 {
+	color: rgb(230, 122, 60); font-size: 11px; font-weight: bold; background-color: rgb(228, 233, 239);
+}
+.tableheader3 {
+	color: rgb(0, 0, 0); font-size: 11px; font-weight: bold; background-color: rgb(228, 233, 239);
+}
+.title3 {
+	font-family: Arial, sans-serif; font-size: 14px; font-weight: bold;
+}
+.header3 {
+	padding: 4px; font-size: 12px; font-weight: bold; margin-top: 0px;
+}
+.header2 {
+	padding: 3px 3px 3px 5px; color: rgb(0, 0, 0); font-size: 12px; font-weight: bold; margin-top: 0px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+#webquotemenu {
+	padding: 0px; width: 237px; clear: right; margin-top: 10px; float: right;
+}
+#webquotemenu dl {
+	margin: 0px; padding: 0px;
+}
+#webquotemenu dt {
+	margin: 0px; padding: 3px 5px; font-size: 12px; font-weight: bold; background-color: rgb(224, 224, 224);
+}
+#webquotemenu dd {
+	background: url("/images/global/us/line.gif") repeat-x rgb(255, 255, 255); margin: 0px; padding: 3px 5px; font-size: 11px;
+}
+#webquotemenu dd a {
+	padding: 2px 0px 2px 30px; display: block;
+}
+.placeordernow {
+	background: url("/images/global/us/icons/place_order.gif") no-repeat left rgb(255, 255, 255);
+}
+.printandfaxorder {
+	background: url("/images/global/us/icons/print.gif") no-repeat left rgb(255, 255, 255);
+}
+.attachpo {
+	background: url("/images/global/us/icons/attach_quote.gif") no-repeat left rgb(255, 255, 255);
+}
+.viewpdf {
+	background: url("/images/global/us/pdf_icon.gif") no-repeat 4px 0px rgb(255, 255, 255);
+}
+.viewpdfquote {
+	background: url("/images/global/us/icons/view_quote.gif") no-repeat left rgb(255, 255, 255);
+}
+.modifyquote {
+	background: url("/images/global/us/icons/modify_quote.gif") no-repeat left rgb(255, 255, 255);
+}
+.retrievequote {
+	background: url("/images/global/us/icons/retrieve_quote.gif") no-repeat left rgb(255, 255, 255);
+}
+.horizontallist {
+	text-align: right; font-size: 11px;
+}
+.horizontallist .printandfaxorder {
+	padding-left: 25px;
+}
+.horizontallist .attachpo {
+	padding-left: 25px;
+}
+.horizontallist .placeordernow {
+	padding-left: 25px;
+}
+#quoteid {
+	width: 500px; margin-top: 10px;
+}
+.status {
+	text-align: right; padding-top: 10px;
+}
+.processingrequest {
+	margin: 20px auto; width: 400px; text-align: center;
+}
+#loading {
+	margin: 20px 0px 0px 180px; border: 1px solid brown; width: 400px; text-align: center; background-color: rgb(255, 255, 255);
+}
+.loading {
+	border: 2px solid rgb(255, 165, 0); height: 60px; padding-top: 40px;
+}
+#cartitems {
+	width: 752px;
+}
+#quotecart th {
+	background-color: rgb(230, 239, 246);
+}
+#quotecart th {
+	font-size: 11px;
+}
+#quotecart td {
+	font-size: 11px;
+}
+.datatable#quotecart td {
+	border: 0px currentColor;
+}
+#quote {
+	width: 752px;
+}
+.pagetitlehr {
+	border-top-color: rgb(6, 95, 163); border-top-width: 10px; border-top-style: solid;
+}
+.statusindicator {
+	padding: 5px 0px 0px; text-align: right;
+}
+.questionstext {
+	padding-top: 8px; font-size: 11px; float: right;
+}
+.tablenolines {
+	border-width: 1px 0px 0px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.tablenolines thead th {
+	background: rgb(242, 242, 242); font-size: 11px;
+}
+.tablenolines tbody td {
+	font-size: 11px;
+}

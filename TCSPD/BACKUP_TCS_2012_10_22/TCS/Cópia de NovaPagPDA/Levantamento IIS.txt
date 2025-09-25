@@ -1,0 +1,1 @@
+16/02/08 - 06:13 - PDA não encotrava o servidor. Porém o micro encontrava.

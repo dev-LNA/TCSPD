@@ -1,0 +1,16 @@
+
+++++++++++++++++++++++++++++
+Local observation parameters
+++++++++++++++++++++++++++++
+  0.733822246   // Observed Azimuth (radians: N=0,E=90) 
+  0.024899250   // Observed Zenith Distance (radians) 
+  1.000         // Estimated air mass 
+  3.901262699   // Local apparent sidereal time (radians) 
+ -0.017918052   // Observed HA (radians) 
+  3.919180751   // Observed RA (radians) 
+ -0.374750589   // Observed Dec (radians) 
+  3.919185536   // Topocentric apparent RA (radians) 
+ -0.374745585   // Topocentric apparent Dec (radians) 
+  3.919183995   // Geocentric apparent RA (radians) 
+ -0.374745595   // Geocentric apparent Dec (radians) 
+

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>MENU</title>
+<script language="javascript">
+function selecao(equip)	{
+	document.subform.eqp.value = equip;
+	document.subform.submit();
+}
+</script>
+</head>
+
+<body leftmargin="1" topmargin="1" rightmargin="1" bottommargin="1" marginwidth="1" marginheight="1">
+<form name="subform" method="post" action="ppc.asp" target="processo">
+<a href="ppcCmdMain.asp" target="Comando" onClick="selecao('HOME');"><img src="web.gif" alt="Main" width="16" height="16"></a>
+<!a href="ppcCmdFoco.asp" target="Comando" onClick="selecao('FOCO');"><img src="admin_icon.png" width="16" height="16"></a>
+<!--<a href="ppcCmdRotator.htm" target="Comando" onClick="selecao('ROTATOR');"><img src="agt_action_success.png"></a>-->
+<!--<a href="ppcCmdTubo.htm" target="Comando" onClick="selecao('TUBO');"><img src="alert.gif"></a>-->
+<!--<a href="ppcCmdEspelhos.htm" target="Comando" onClick="selecao('ESPELHOS');"><img src="configure.png"></a>-->
+<!a href="ppcCmdMovimento.asp" target="Comando" onClick="selecao('MOVIMENTO');"><img src="connect_creating.png" width="16" height="16"></a>
+<!--<a href="ppcCmdManete.htm" target="Comando" onClick="selecao('MANETE');"><img src="db_update.png"></a>-->
+<!--<a href="ppcCmdParking.htm" target="Comando" onClick="selecao('PARKING');"><img src="icon_3d.gif"></a>-->
+<!a href="ppcCmdCupula.asp" target="Comando" onClick="selecao('CUPULA');"><img src="icon_bug.gif" width="16" height="16"></a>
+<!a href="ppcCmdEquipCupula.asp" target="Comando" onClick="selecao('EQUIPCUPULA');"><img src="icon_file_checked.gif" width="16" height="16"></a>
+<!--<a href="ppcCmdLampadas.htm" target="Comando" onClick="selecao('LAMPADAS');"><img src="project_open.png"></a>-->
+<!input type="hidden" name="eqp" value="">
+<!input type="hidden" name="acao" value="NOVO">
+</form>
+</body>
+</html>
+<iframe name="processo" id="processo" style="display:none"></iframe>
