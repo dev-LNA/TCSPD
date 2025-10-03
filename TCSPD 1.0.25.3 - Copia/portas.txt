@@ -1,0 +1,14 @@
+com 12 ah
+com 15 dec
+com 14 cup
+com 16 tubo
+com 17 CANDIR (2400)
+com 18 RESERVA
+com 65 aquisicao
+com 71 Guider
+
+
+
+
+
+ 
