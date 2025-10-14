@@ -26,7 +26,7 @@
 		<Item Name="Control 1.ctl" Type="VI" URL="../Control 1.ctl"/>
 		<Item Name="Log_Apontamento.vi" Type="VI" URL="../Log_Apontamento.vi"/>
 		<Item Name="Log_comandos_aquisicion.vi" Type="VI" URL="../Log_comandos_aquisicion.vi"/>
-		<Item Name="Monta Comando.vi" Type="VI" URL="../Apontamento.llb/Monta Comando.vi"/>
+		<Item Name="Monta comando comFilas .vi" Type="VI" URL="../Monta comando comFilas .vi"/>
 		<Item Name="PROTECAO_AH.vi" Type="VI" URL="../PROTECAO_AH.vi"/>
 		<Item Name="Shared_160.lvlib" Type="Library" URL="../Shared_160.lvlib"/>
 		<Item Name="Verifica_Correcao_CUP.vi" Type="VI" URL="../Verifica_Correcao_CUP.vi"/>
@@ -55,6 +55,7 @@
 		<Item Name="Recebe resposta serial.vi" Type="VI" URL="../Recebe resposta serial.vi"/>
 		<Item Name="Bridge serial.vi" Type="VI" URL="../Bridge serial.vi"/>
 		<Item Name="Monta comando reentrante .vi" Type="VI" URL="../Monta comando reentrante .vi"/>
+		<Item Name="String to locale number.vi" Type="VI" URL="../String to locale number.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -939,7 +940,7 @@
 				<Property Name="App_INI_GUID" Type="Str">{23BBEBAF-2565-4279-9291-F8E891D96A61}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{555833A1-3EC3-4B6B-9909-5A84A9C36280}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Plataform and Dome shutter sensors, removing old control. Atmospheric alarms. Removidas todas portas seriais. Criado Bridge serial.vi. DIGI serial hub.</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Plataform and Dome shutter sensors, removing old control. Atmospheric alarms. Removidas todas portas seriais. Criado Bridge serial.vi. DIGI serial hub. Monta comando reentrante.</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">TCSPD build 1.0.25.6</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -957,7 +958,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25.6/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TCSPD.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AF27485D-BF6B-478F-9F7B-FF013D70382A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6A3F7381-398B-4A40-AC1D-70D6AA161591}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shared_160.lvlib/TCSPD.VI</Property>
@@ -995,6 +996,198 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
 				<Property Name="TgtF_productName" Type="Str">TCSPD 1.0.22.3</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{9655CBF3-5262-4941-B88A-12007F845C95}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TCSPD.exe</Property>
+			</Item>
+			<Item Name="TCSPD build 1.0.25.7" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7F4409F1-E266-47EC-9682-6A6BE8A91C4E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{BCFB7648-7DEC-41E1-B3B0-E7ED02C28380}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{36A2D041-73BF-45B2-8293-E750BD93D271}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Plataform and Dome shutter sensors, removing old control. Atmospheric alarms. Removidas todas portas seriais. Criado Bridge serial.vi. DIGI serial hub. Monta comando reentrante.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TCSPD build 1.0.25.7</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25.7</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{21EEBCF2-7034-40E9-B15A-B15174F63D54}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TCSPD.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25.7/TCSPD.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25.7/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TCSPD.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A3209564-FFAC-4A7F-A455-76632EF1840F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shared_160.lvlib/TCSPD.VI</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLLs0MQ/zeromq.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/DLLs0MQ/libzmq-v120-mt-4_3_2.dll</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/DLLs0MQ/libzmq-v120-mt-4_3_2.lib</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/DLLs0MQ/lvzmq32.dll</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/DLLs0MQ/lvzmq32.lib</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/DLLs0MQ/libsodium.dll</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/DLLs0MQ/msvcp120.dll</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/DLLs0MQ/msvcr120.dll</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TCSPD 1.0.22.3 - Alterada a configuração e implementadas melhorias na comunicação com a estação meteorológica.</Property>
+				<Property Name="TgtF_internalName" Type="Str">TCSPD 1.0.22.3</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">TCSPD 1.0.22.3</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F112C55D-B636-48C9-B07A-DE54C6EEA09E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TCSPD.exe</Property>
+			</Item>
+			<Item Name="TCSPD build 1.0.25.9" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{41B46D05-2A4F-403B-9298-75B78E11BF39}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{02593052-E3AC-453B-90DE-B260D6B9D40B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D1DC4AD3-957F-421E-BB0F-A553BB100BED}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Plataform and Dome shutter sensors, removing old control. Atmospheric alarms. Removidas todas portas seriais. Criado Bridge serial.vi DIGI serial hub. Monta comando</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TCSPD build 1.0.25.9</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25.9</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7A4CA250-8FD3-4BCD-AD82-B020E48461EB}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TCSPD.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25.9/TCSPD.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25.9/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TCSPD.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0EEB669B-25B0-4664-9F06-48D840BC7DCC}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shared_160.lvlib/TCSPD.VI</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLLs0MQ/zeromq.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/DLLs0MQ/libzmq-v120-mt-4_3_2.dll</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/DLLs0MQ/libzmq-v120-mt-4_3_2.lib</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/DLLs0MQ/lvzmq32.dll</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/DLLs0MQ/lvzmq32.lib</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/DLLs0MQ/libsodium.dll</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/DLLs0MQ/msvcp120.dll</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/DLLs0MQ/msvcr120.dll</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TCSPD 1.0.22.3 - Alterada a configuração e implementadas melhorias na comunicação com a estação meteorológica.</Property>
+				<Property Name="TgtF_internalName" Type="Str">TCSPD 1.0.22.3</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">TCSPD 1.0.22.3</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{CDBD7479-5E9A-44AA-8C11-A21F6044F301}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TCSPD.exe</Property>
+			</Item>
+			<Item Name="TCSPD build 1.0.25" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F8904D29-6699-4103-B64B-57631A48AD3F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{3751F39D-0FD3-42D3-A8BE-5A49E2C096DB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{62778DA0-2DEC-4AA1-8507-F3A0943743C1}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Plataform and Dome shutter sensors, removing old control. Atmospheric alarms. Removidas todas portas seriais. Bridge serial.vi DIGI serial hub.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TCSPD build 1.0.25</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{FFF2330A-8D78-4DE4-BBE1-C3509164D6DC}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TCSPD.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25/TCSPD.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TCSPD build 1.0.25/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TCSPD.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0EEB669B-25B0-4664-9F06-48D840BC7DCC}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Shared_160.lvlib/TCSPD.VI</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DLLs0MQ/zeromq.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/DLLs0MQ/libzmq-v120-mt-4_3_2.dll</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/DLLs0MQ/libzmq-v120-mt-4_3_2.lib</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/DLLs0MQ/lvzmq32.dll</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/DLLs0MQ/lvzmq32.lib</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/DLLs0MQ/libsodium.dll</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/DLLs0MQ/msvcp120.dll</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/DLLs0MQ/msvcr120.dll</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TCSPD 1.0.22.3 - Alterada a configuração e implementadas melhorias na comunicação com a estação meteorológica.</Property>
+				<Property Name="TgtF_internalName" Type="Str">TCSPD 1.0.22.3</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 </Property>
+				<Property Name="TgtF_productName" Type="Str">TCSPD 1.0.22.3</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C96BB641-97A1-48CF-8972-BF84F52177D6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TCSPD.exe</Property>
 			</Item>
 		</Item>
